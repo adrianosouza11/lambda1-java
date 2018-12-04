@@ -1,5 +1,6 @@
 package application;
 
+import entities.MyComparator;
 import entities.Product;
 
 import java.util.ArrayList;
@@ -15,7 +16,7 @@ public class Main {
         list.add(new Product("Notebook", 1200.0));
         list.add(new Product("Tablet", 450.0));
 
-        Collections.sort(list);
+        list.sort(new MyComparator());
         for (Product p : list){
             System.out.println(p);
         }
