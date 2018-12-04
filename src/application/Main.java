@@ -4,7 +4,6 @@ import entities.MyComparator;
 import entities.Product;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.List;
 
 public class Main {
